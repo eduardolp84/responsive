@@ -1,3 +1,47 @@
-@media screen and (max-width: 480px){
+:root{
+    --color-1: #C0FDFB;
+    --color-2: #64B6AC;
+    --color-3: #FAD4C0;
+    --color-4: #FEE9E1;
+    --color-5: #B09E99;
+    --blanco: #ffffff;
+}
+body{
+    width: 100%;
+    margin: 0px;
+    color: var(--blanco);
+    text-shadow: 2px 2px 2px black;
+    font-size: 20px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    background-color: var(--color-1);
+}
+nav{
+    background-color: var(--color-2);
+}
+section{
+    background-color: var(--color-3);
+}
+aside{
+    background-color: var(--color-4);
+}
+footer{
+    background-color: var(--color-5);
+}
+.border{
+    border: 1px solid black;
+}
+.margen{
+    margin:8px;
+    padding: 20px;
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 750px){
+
 
 }
